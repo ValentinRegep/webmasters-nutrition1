@@ -1302,8 +1302,7 @@ button#calculate {
   z-index: 200;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.7);
-  height: 90vh;
+  height: 100vh;
   backdrop-filter: blur(7px);
-  filter: blur(7px);
-  margin-top: 4.5vh;
+  filter: blur(4px);
 }
