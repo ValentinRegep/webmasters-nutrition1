@@ -249,6 +249,7 @@ body {
 .header-bottom.active {
   position: fixed;
   top: -81px;
+  z-index: 25;
   background-color: var(--white);
   box-shadow: var(--shadow-2);
   animation: slideIn 0.5s var(--cubic-out) forwards;
@@ -301,6 +302,7 @@ body {
 }
 
 .navbar.active {
+  z-index: 25;
   visibility: visible;
   max-height: 244px;
   transition-duration: 0.5s;
@@ -1297,11 +1299,12 @@ button#calculate {
   font-weight: 800;
 }
 
-#blur {
+#blurr {
   width: 100%;
-  z-index: 200;
+  z-index: 20;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0);
   height: 100vh;
-  backdrop-filter: blur(3px);
+  top: 0;
+  backdrop-filter: blur(9px);
 }
