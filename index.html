@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desntist Arad - Cel Mai Bun Nutriționist Din Oras</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:webmasters.results@gmail.com" class="contact-link">webmasters.results@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+40-746-547-367</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Logo.</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Acasă</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>Servicii</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Despre</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a href="#cta" class="btn">Programează-te Acum</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')"
+        aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Bine ai venit pe site</p>
+
+            <h1 class="h1 hero-title">Cei Mai Buni Nutriționiști</h1>
+
+            <p class="hero-text">
+              Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus
+              sapien, cursus sed
+              nisl tristique, commodo gravida lectus non.
+            </p>
+
+            <form action="" class="hero-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+                class="email-field">
+
+              <button type="submit" class="btn">Abonare la NewsLetter</button>
+            </form>
+
+          </div>
+
+          <figure class="hero-banner">
+            <div class="containerr">
+              <div class="box">
+                <h1>Calculator BMI</h1>
+                <div class="content">
+                  <div class="input">
+                    <label for="height">Inaltime(cm)</label>
+                    <input type="text" id="height">
+                  </div>
+                  <div class="input">
+                    <label for="weight">Greutate(kg)</label>
+                    <input type="text" id="weight">
+                  </div>
+                  <button type="submit" class="btn" id="calculate">Calculeaza BMI</button>
+                </div>
+                <div class="result">
+                  <p>BMI-ul tau este</p>
+                  <div id="result">00.00</div>
+                  <p class="comment"></p>
+                </div>
+              </div>
+            </div>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Servicii</p>
+
+          <h2 class="h2 section-title text-center">Cu Ce Ne Ocupăm</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Pierderea in greutate</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Nutritia pentru copii</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Nutritia pentru sportivi</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="./assets/images/1.jpg" width="409" height="467" loading="lazy"
+                  alt="service banner" class="w-100">
+              </figure>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Consultanta Nutritionala pentru Companii</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Terapia Nutritionala in Boala Cardiovasculara</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Terapia Nutritionala in Diabetul Zaharat</h3>
+
+                  <p class="card-text">
+                    Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/2.jpg" width="470" height="538" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Despre</p>
+
+            <h2 class="h2 section-title">Avem Grijă De Sănătatea Corpului Tău</h2>
+
+            <p class="section-text section-text-1">
+              Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est, sed dapibus
+              sapien. Cras
+              condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique, commodo vehicula arcu.
+            </p>
+
+            <p class="section-text">
+              Aliquam erat volutpat. Aliquam enim massa, sagittis blandit ex mattis, ultricies posuere sapien. Morbi a
+              dignissim enim.
+              Fusce elementum, augue in elementum porta, sapien nunc volutpat ex, a accumsan nunc lectus eu lectus.
+            </p>
+
+            <a href="#" class="btn">Mai mult</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section doctor" aria-label="doctor">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Echipa Noastră</p>
+
+          <h2 class="h2 section-title text-center">Cei Mai Buni Nutriționiști</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-1.png" width="460" height="500" loading="lazy" alt="Howard Holmes"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Howard Holmes</a>
+                </h3>
+
+                <p class="card-subtitle">Nutriționist</p>
+
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-2.png" width="460" height="500" loading="lazy" alt="Ella Thompson"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ella Thompson</a>
+                </h3>
+
+                <p class="card-subtitle">Asistentă</p>
+
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-3.png" width="460" height="500" loading="lazy" alt="Vincent Cooper"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Vincent Cooper</a>
+                </h3>
+
+                <p class="card-subtitle">Nutriționist</p>
+
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-4.png" width="460" height="500" loading="lazy" alt="Danielle Bryant"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Danielle Bryant</a>
+                </h3>
+
+                <p class="card-subtitle">Asistentă</p>
+
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" id="cta">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/hero-banner.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">Programează-te La O Întâlnire</p>
+
+            <h2 class="h2 section-title">Te Ajutăm Noi Să Scapi De Dureri</h2>
+            <div>
+              <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/valentin-regep/programare-dentist" style="min-width:320px;height:630px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+              <!-- Calendly inline widget end -->
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Blog</p>
+
+          <h2 class="h2 section-title text-center">Noutăți</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
+                    alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">24 Februarie 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Calcularea Caloriilor.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Mai Mult</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">2 Martie 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Planul Alimentar.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Mai Mult</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
+                    alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2022-03-24">13 Iulie 2022</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Detoxifierea.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
+                  </p>
+
+                  <a href="#" class="card-link">Mai Mult</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Logo.</a>
+
+          <p class="footer-text">
+            Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur sagittis libero tincidunt tempor finibus.
+            Mauris at
+            dignissim ligula, nec tristique orci.Quisque vitae metus.
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Luni - Vineri:<br>
+              09:00 - 20:00
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Meniu</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Acasă</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Servicii</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Despre</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Servicii</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Pierderea in greutate</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Nutritia pentru copii</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Nutritia pentru sportivi</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Consultanta Nutritionala pentru Companii</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Terapia Nutritionala in Boala Cardiovasculara</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Terapia Nutritionala in Diabetul Zaharat</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+              1247/Plot No. 39, 15th Phase,<br>
+              LHB Colony, Kanpur
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+917052101786" class="footer-link">+40-746-547-367</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by WebMasters Results.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
