@@ -1296,3 +1296,13 @@ button#calculate {
   color: var(--royal-blue-light);
   font-weight: 800;
 }
+
+#blur {
+  width: 100%;
+  z-index: 200;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 90vh;
+  backdrop-filter: blur(9px);
+  margin-top: 4.5vh;
+}
